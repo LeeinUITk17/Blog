@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    /* margin-right: 200px; */
+}
+.header h1{
+    text-align: center;
+    margin-right: 100px;
+}
+.navbar{
+    display: flex;
+    background-image: url(/img/navbarimg.jpeg);
+    width: 100%;
+    height: 150px;
+}
+.navbar a{
+    color: rgb(8, 1, 1);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 150%;
+}
+.navbar button{
+    border-radius: 12px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+    text-align: center;
+    color: whitesmoke;
+}
+.side{
+    flex: 30%;
+    padding: 20px;
+    background-image: url(/img/sideimg.jpeg);
+    border-color: whitesmoke;
+    border: 10px solid whitesmoke;
+}
+.main{
+flex: 70%;
+padding: 20px;
+background-image: url(/img/mainimg.jpeg);
+border-color: whitesmoke;
+border: 10px solid whitesmoke;
+}
+.pic{
+    width: 100%;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    background-image: url(/img/footerimg.jpeg);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 150%;
+    flex-wrap: wrap;
+}
+.side1{
+    flex: 25%;
+    border: 10px solid whitesmoke;
+}
+.side2{
+    flex: 25%;
+    border: 10px solid whitesmoke;
+}
+.side3{
+    flex: 25%;
+    border: 10px solid whitesmoke;
+}
+.side4{
+    flex: 25%;
+    border: 10px solid whitesmoke;
+}
